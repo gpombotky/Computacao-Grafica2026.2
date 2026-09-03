@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computação Gráfica</title>
+
+    <style>
+        .desenhos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .desenho {
+            text-align: center;
+        }
+
+        canvas {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="desenhos">
+
+        <div class="desenho">
+            <h2>Robô</h2>
+
+            <canvas
+                id="canvasrobo"
+                width="500"
+                height="500">
+            </canvas>
+        </div>
+
+
+        <div class="desenho">
+            <h2>Flor</h2>
+
+            <canvas
+                id="canvasflor"
+                width="500"
+                height="500">
+            </canvas>
+        </div>
+
+
+        <div class="desenho">
+            <h2>Carro</h2>
+
+            <canvas
+                id="canvascarro"
+                width="500"
+                height="500">
+            </canvas>
+        </div>
+
+    </div>
+
+
+    <script src="robo.js"></script>
+    <script src="flor.js"></script>
+    <script src="carro.js"></script>
+
+</body>
+
+</html>
